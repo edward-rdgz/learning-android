@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+      android:id="@+id/ej02_pila_estado"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="left" />
+
+    <TextView
+      android:id="@+id/ej02_pila_textview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/ej02_pila" />
+
+    <Button
+      android:id="@+id/ej02_pila_boton_apilar_a"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej02_boton_apilar_a"
+      android:onClick="onClickButtonApilarA" />
+
+    <Button
+      android:id="@+id/ej02_pila_boton_apilar_b"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej02_boton_apilar_b"
+      android:onClick="onClickButtonApilarB" />
+
+    <Button
+      android:id="@+id/ej02_pila_boton_desapilar_a"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej02_boton_desapilar_hasta_a"
+      android:onClick="onClickButtonDesapilarHastaA" />
+
+    <Button
+      android:id="@+id/ej02_pila_boton_desapilar_b"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej02_boton_desapilar_hasta_b"
+      android:onClick="onClickButtonDesapilarHastaB" />
+
+    <Button
+      android:id="@+id/ej02_pila_boton_inicio"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej02_boton_desapilar_todo"
+      android:onClick="onClickButtonDepilerTout" />
+
+  </LinearLayout>
+
+</ScrollView>

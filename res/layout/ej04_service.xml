@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:orientation="vertical">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ej04_service_infos" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/ej04_service_boton_start"
+    android:onClick="onClickButtonStartService" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/ej04_service_boton_stop"
+    android:onClick="onClickButtonStopService" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/ej04_service_boton_stopself"
+    android:onClick="onClickButtonStopSelfService" />
+
+  <Button
+    android:id="@+id/ej04_service_boton_bind_unbind"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/ej04_service_boton_bind"
+    android:onClick="onClickButtonBindUnbindService" />
+
+  <Button
+    android:id="@+id/ej04_service_boton_action"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:enabled="false"
+    android:text="@string/ej04_service_boton_action"
+    android:onClick="onClickButtonActionService" />
+
+</LinearLayout>

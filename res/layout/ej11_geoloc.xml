@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <Button
+    android:id="@+id/ej11_geoloc_cache"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:text="@string/ej11_geoloc_cache"
+    android:onClick="onClickButtonCache" />
+
+  <ToggleButton
+    android:id="@+id/ej11_geoloc_actualiz_regular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/ej11_geoloc_cache"
+    android:textSize="20sp"
+    android:textOn="@string/ej11_geoloc_actualiz_regular_on"
+    android:textOff="@string/ej11_geoloc_actualiz_regular_off"
+    android:onClick="onClickButtonActualizRegular" />
+
+  <EditText
+    android:id="@+id/ej11_geoloc_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ej11_geoloc_cache"
+    android:editable="false"
+    android:longClickable="false"
+    android:gravity="top"
+    android:scrollbars="vertical"
+    android:text="@string/ej11_geoloc_info" />
+
+</RelativeLayout>

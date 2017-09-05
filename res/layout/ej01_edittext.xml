@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <EditText
+    android:id="@+id/ej01_edittext"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#FFF"
+    android:textColor="#000"
+    android:lines="5"
+    android:gravity="top"
+    android:inputType="textMultiLine|textAutoCorrect"
+    android:selectAllOnFocus="true"
+    android:text="@string/ej01_edit" />
+
+</RelativeLayout>

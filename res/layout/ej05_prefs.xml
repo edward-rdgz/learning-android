@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal">
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ej05_prefs" />
+
+  <RadioGroup
+    android:id="@+id/ej05_prefs_eleccion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:orientation="horizontal">
+
+    <RadioButton
+      android:id="@+id/ej05_prefs_opcion_a"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/ej05_prefs_opcion_a" />
+
+    <RadioButton
+      android:id="@+id/ej05_prefs_opcion_b"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dip"
+      android:text="@string/ej05_prefs_opcion_b" />
+
+  </RadioGroup>
+
+  <EditText
+    android:id="@+id/ej05_prefs_texto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content" />
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="onClickButtonSalvaguardar"
+    android:text="@string/ej05_prefs_boton_salvaguardar" />
+
+</LinearLayout>

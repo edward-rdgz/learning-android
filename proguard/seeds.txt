@@ -1,0 +1,105 @@
+com.android.vending.licensing.ILicensingService
+com.android.vending.licensing.Policy$LicenseResponse: com.android.vending.licensing.Policy$LicenseResponse[] values()
+com.android.vending.licensing.Policy$LicenseResponse: com.android.vending.licensing.Policy$LicenseResponse valueOf(java.lang.String)
+com.android.vending.licensing.LicenseCheckerCallback$ApplicationErrorCode: com.android.vending.licensing.LicenseCheckerCallback$ApplicationErrorCode[] values()
+com.android.vending.licensing.LicenseCheckerCallback$ApplicationErrorCode: com.android.vending.licensing.LicenseCheckerCallback$ApplicationErrorCode valueOf(java.lang.String)
+es.midominio.android.miaplicacion.ex02.ResultatActivite
+es.midominio.android.miaplicacion.ex06.ThreadActivite
+es.midominio.android.miaplicacion.ex01.Button2Activite
+es.midominio.android.miaplicacion.ex02.IntentionImpliciteDestActivite
+es.midominio.android.miaplicacion.ex07.TestDuSingeActivite
+es.midominio.android.miaplicacion.SplashActivity
+es.midominio.android.miaplicacion.ex01.EditTextActivite
+es.midominio.android.miaplicacion.ex02.IntentionImpliciteActivite
+es.midominio.android.miaplicacion.ex05.BDDActivite
+es.midominio.android.miaplicacion.ex01.ModeProgrammatiqueActivite
+es.midominio.android.miaplicacion.ex01.ModeDeclaratifActivite
+es.midominio.android.miaplicacion.ex05.FichiersActivite
+es.midominio.android.miaplicacion.ex02.PaysageActivite
+es.midominio.android.miaplicacion.ex10.AppWidgetActivite
+es.midominio.android.miaplicacion.ex01.TextViewActivite
+es.midominio.android.miaplicacion.ex05.PreferencesActivite
+es.midominio.android.miaplicacion.ex03.MenuActivite
+es.midominio.android.miaplicacion.ex06.ANRActivite
+es.midominio.android.miaplicacion.ex07.TestsFonctionnelsActivite
+es.midominio.android.miaplicacion.ex05.FournisseurDeContenusActivite
+es.midominio.android.miaplicacion.ex06.AutreProcessusActivite
+es.midominio.android.miaplicacion.ex01.MesuresEcranActivite
+es.midominio.android.miaplicacion.ex01.Button1Activite
+es.midominio.android.miaplicacion.ex08.PublicationActivite
+es.midominio.android.miaplicacion.ex03.NotificationActivite
+es.midominio.android.miaplicacion.ex02.PileParentActivite
+es.midominio.android.miaplicacion.ex02.PileAActivite
+es.midominio.android.miaplicacion.ex02.PileBActivite
+es.midominio.android.miaplicacion.ex02.ResultatDestActivite
+es.midominio.android.miaplicacion.ex10.ConfigurationAppWidgetActivite
+es.midominio.android.miaplicacion.ex03.ToastActivite
+es.midominio.android.miaplicacion.ex02.CycleDeVieActivite
+es.midominio.android.miaplicacion.ex02.IntentionExpliciteActivite
+es.midominio.android.miaplicacion.ex03.StylesThemesActivite
+es.midominio.android.miaplicacion.ex05.AgentDeSauvegardeActivite
+es.midominio.android.miaplicacion.ex01.AutresWidgetsActivite
+es.midominio.android.miaplicacion.ex06.ProcessusActivite
+es.midominio.android.miaplicacion.ex03.MenuContextuelActivite
+es.midominio.android.miaplicacion.ex06.AsyncTaskActivite
+es.midominio.android.miaplicacion.ex10.LicenceActivite
+es.midominio.android.miaplicacion.ex02.RestaurationActivite
+es.midominio.android.miaplicacion.ex03.DialogueActivite
+es.midominio.android.miaplicacion.ex09.GeolocActivite
+es.midominio.android.miaplicacion.ex07.TestsUnitairesActivite
+es.midominio.android.miaplicacion.ex02.PortraitActivite
+es.midominio.android.miaplicacion.MonActiviteDestinataire
+es.midominio.android.miaplicacion.ex04.RecepteurEvenementsActivite
+es.midominio.android.miaplicacion.ex04.ServiceActivite
+es.midominio.android.miaplicacion.ex06.HTTPActivite
+es.midominio.android.miaplicacion.ex07.JournalEvenementsActivite
+es.midominio.android.miaplicacion.ex09.CarteActivite
+es.midominio.android.miaplicacion.MonActivitePrincipale
+es.midominio.android.miaplicacion.ex04.ListePersonnaliseeActivite
+es.midominio.android.miaplicacion.ex04.ListeSimpleActivite
+es.midominio.android.miaplicacion.ex04.MonService
+es.midominio.android.miaplicacion.ex04.RecepteurEvenements
+es.midominio.android.miaplicacion.ex10.MonAppWidget
+es.midominio.android.miaplicacion.ex02.ResultatActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex02.IntentionImpliciteActivite: void onClickButtonAction1(android.view.View)
+es.midominio.android.miaplicacion.ex02.IntentionImpliciteActivite: void onClickButtonView(android.view.View)
+es.midominio.android.miaplicacion.ex05.PreferencesActivite: void onClickButtonSauvegarde(android.view.View)
+es.midominio.android.miaplicacion.ex05.PreferencesActivite: void onClickButtonRestaure(android.view.View)
+es.midominio.android.miaplicacion.ex06.ANRActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex01.Button1Activite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex03.NotificationActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerTout(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerTout(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonEmpilerB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaA(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerJusquaB(android.view.View)
+es.midominio.android.miaplicacion.ex02.PileParentActivite: void onClickButtonDepilerTout(android.view.View)
+es.midominio.android.miaplicacion.ex02.ResultatDestActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex10.ConfigurationAppWidgetActivite: void validation(android.view.View)
+es.midominio.android.miaplicacion.ex03.ToastActivite: void onClickButtonShortDuration(android.view.View)
+es.midominio.android.miaplicacion.ex03.ToastActivite: void onClickButtonLongDuration(android.view.View)
+es.midominio.android.miaplicacion.ex02.IntentionExpliciteActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex05.AgentDeSauvegardeActivite: void onClickButtonSauvegarde(android.view.View)
+es.midominio.android.miaplicacion.ex06.ProcessusActivite: void onClickButton(android.view.View)
+es.midominio.android.miaplicacion.ex10.LicenceActivite: void onButtonVerification(android.view.View)
+es.midominio.android.miaplicacion.ex03.DialogueActivite: void onClickButtonAlert(android.view.View)
+es.midominio.android.miaplicacion.ex03.DialogueActivite: void onClickButtonChoix(android.view.View)
+es.midominio.android.miaplicacion.ex03.DialogueActivite: void onClickButtonProgress(android.view.View)
+es.midominio.android.miaplicacion.ex03.DialogueActivite: void onClickButtonProgressInd(android.view.View)
+es.midominio.android.miaplicacion.ex09.GeolocActivite: void onClickButtonCache(android.view.View)
+es.midominio.android.miaplicacion.ex09.GeolocActivite: void onClickButtonMajRegulieres(android.view.View)
+es.midominio.android.miaplicacion.ex04.RecepteurEvenementsActivite: void onClickButtonEnvoiEvt(android.view.View)
+es.midominio.android.miaplicacion.ex04.ServiceActivite: void onClickButtonStartService(android.view.View)
+es.midominio.android.miaplicacion.ex04.ServiceActivite: void onClickButtonStopService(android.view.View)
+es.midominio.android.miaplicacion.ex04.ServiceActivite: void onClickButtonStopSelfService(android.view.View)
+es.midominio.android.miaplicacion.ex04.ServiceActivite: void onClickButtonBindUnbindService(android.view.View)
+es.midominio.android.miaplicacion.ex04.ServiceActivite: void onClickButtonActionService(android.view.View)

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej03_dialogo_alerta"
+      android:onClick="onClickButtonAlert" />
+
+    <Button
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej03_dialogo_alerta_seleccion"
+      android:onClick="onClickButtonChoix" />
+
+    <Button
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej03_dialogo_progresion"
+      android:onClick="onClickButtonProgress" />
+
+    <Button
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      android:text="@string/ej03_dialogo_progresion_ind"
+      android:onClick="onClickButtonProgressInd" />
+
+  </LinearLayout>
+
+</ScrollView>

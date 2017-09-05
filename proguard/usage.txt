@@ -1,0 +1,135 @@
+com.android.vending.licensing.AESObfuscator:
+    private static final java.lang.String UTF8
+    private static final java.lang.String KEYGEN_ALGORITHM
+    private static final java.lang.String CIPHER_ALGORITHM
+    private static final java.lang.String header
+com.android.vending.licensing.ILicenseResultListener$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_verifyLicense
+com.android.vending.licensing.ILicenseResultListener$Stub$Proxy:
+    79:79:public java.lang.String getInterfaceDescriptor()
+com.android.vending.licensing.ILicensingService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_checkLicense
+    40:40:public android.os.IBinder asBinder()
+com.android.vending.licensing.ILicensingService$Stub$Proxy:
+    79:79:public java.lang.String getInterfaceDescriptor()
+com.android.vending.licensing.LicenseChecker:
+    private static final java.lang.String TAG
+    private static final java.lang.String KEY_FACTORY_ALGORITHM
+    private static final int TIMEOUT_MS
+com.android.vending.licensing.LicenseValidator:
+    private static final java.lang.String TAG
+    private static final int LICENSED
+    private static final int NOT_LICENSED
+    private static final int LICENSED_OLD_KEY
+    private static final int ERROR_NOT_MARKET_MANAGED
+    private static final int ERROR_SERVER_FAILURE
+    private static final int ERROR_OVER_QUOTA
+    private static final int ERROR_CONTACTING_SERVER
+    private static final int ERROR_INVALID_PACKAGE_NAME
+    private static final int ERROR_NON_MATCHING_UID
+    private static final java.lang.String SIGNATURE_ALGORITHM
+com.android.vending.licensing.PreferenceObfuscator:
+    private static final java.lang.String TAG
+com.android.vending.licensing.R
+com.android.vending.licensing.R$array
+com.android.vending.licensing.R$attr
+com.android.vending.licensing.R$color
+com.android.vending.licensing.R$drawable
+com.android.vending.licensing.R$id
+com.android.vending.licensing.R$layout
+com.android.vending.licensing.R$menu
+com.android.vending.licensing.R$string
+com.android.vending.licensing.R$style
+com.android.vending.licensing.R$xml
+com.android.vending.licensing.ServerManagedPolicy:
+    private static final java.lang.String TAG
+    private static final java.lang.String PREFS_FILE
+    private static final java.lang.String PREF_LAST_RESPONSE
+    private static final java.lang.String PREF_VALIDITY_TIMESTAMP
+    private static final java.lang.String PREF_RETRY_UNTIL
+    private static final java.lang.String PREF_MAX_RETRIES
+    private static final java.lang.String PREF_RETRY_COUNT
+    private static final java.lang.String DEFAULT_VALIDITY_TIMESTAMP
+    private static final java.lang.String DEFAULT_RETRY_UNTIL
+    private static final java.lang.String DEFAULT_MAX_RETRIES
+    private static final java.lang.String DEFAULT_RETRY_COUNT
+    private static final long MILLIS_PER_MINUTE
+    154:154:public long getRetryCount()
+    180:180:public long getValidityTimestamp()
+    206:206:public long getRetryUntil()
+    232:232:public long getMaxRetries()
+com.android.vending.licensing.StrictPolicy
+com.android.vending.licensing.ValidationException:
+    private static final long serialVersionUID
+com.android.vending.licensing.util.Base64:
+    public static final boolean ENCODE
+    public static final boolean DECODE
+    private static final byte EQUALS_SIGN
+    private static final byte NEW_LINE
+    private static final byte WHITE_SPACE_ENC
+    private static final byte EQUALS_SIGN_ENC
+    258:258:public static java.lang.String encodeWebSafe(byte[],boolean)
+    431:432:public static byte[] decodeWebSafe(java.lang.String)
+    445:445:public static byte[] decode(byte[])
+    458:458:public static byte[] decodeWebSafe(byte[])
+    489:489:public static byte[] decodeWebSafe(byte[],int,int)
+com.android.vending.licensing.util.Base64DecoderException:
+    private static final long serialVersionUID
+es.midominio.android.miaplicacion.MonActivitePrincipale:
+    private static final java.lang.String CHEMIN
+es.midominio.android.miaplicacion.R
+es.midominio.android.miaplicacion.R$array
+es.midominio.android.miaplicacion.R$attr
+es.midominio.android.miaplicacion.R$color
+es.midominio.android.miaplicacion.R$drawable
+es.midominio.android.miaplicacion.R$id
+es.midominio.android.miaplicacion.R$layout
+es.midominio.android.miaplicacion.R$menu
+es.midominio.android.miaplicacion.R$string
+es.midominio.android.miaplicacion.R$style
+es.midominio.android.miaplicacion.R$xml
+es.midominio.android.miaplicacion.ex02.RestaurationActivite:
+    private static final java.lang.String CLE_COULEUR
+es.midominio.android.miaplicacion.ex02.ResultatActivite:
+    private static final int REQ_CODE
+es.midominio.android.miaplicacion.ex03.DialogueActivite:
+    private static final int DIALOGUE_ALERTE
+    private static final int DIALOGUE_CHOIX
+    private static final int DIALOGUE_PROGRESSION
+    private static final int DIALOGUE_PROGRESSION_IND
+es.midominio.android.miaplicacion.ex04.ListePersonnaliseeActivite:
+    private static final int NB_ELTS
+es.midominio.android.miaplicacion.ex04.MonService:
+    public static final java.lang.String CLE_STOP
+es.midominio.android.miaplicacion.ex05.AgentDeSauvegardeActivite:
+    private static final java.lang.String PREF_CHOIX
+    private static final java.lang.String PREF_TEXTE
+    private static final int OPTION_A
+    private static final int OPTION_B
+es.midominio.android.miaplicacion.ex05.BDDActivite$BDDAssistant:
+    private static final int VERSION
+    private static final java.lang.String NOM_BDD
+    private static final java.lang.String NOM_TABLE
+    private static final java.lang.String CHAMP_NOM
+es.midominio.android.miaplicacion.ex05.FichiersActivite:
+    private static final int TAILLE_BUFFER
+    private static final java.lang.String NOM_FICHIER_LOGO
+es.midominio.android.miaplicacion.ex05.PreferencesActivite:
+    private static final java.lang.String PREF_CHOIX
+    private static final java.lang.String PREF_TEXTE
+    private static final int OPTION_A
+    private static final int OPTION_B
+es.midominio.android.miaplicacion.ex06.HTTPActivite:
+    private static final java.lang.String AGENT_UTILISATEUR
+es.midominio.android.miaplicacion.ex06.ThreadActivite:
+    private static final int MSG_DEBUT
+    private static final int MSG_FIN
+    private static final int DELAI_MILLIS
+es.midominio.android.miaplicacion.ex07.JournalEvenementsActivite:
+    private static final java.lang.String TAG
+es.midominio.android.miaplicacion.ex07.TestsUnitairesActivite:
+    public static final java.lang.String CLE_TEXTE
+es.midominio.android.miaplicacion.ex10.LicenceActivite:
+    private static final java.lang.String CLE_PUBLIQUE_BASE64

@@ -1,0 +1,7 @@
+<appwidget-provider
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:minWidth="146dp"
+  android:minHeight="72dp"
+  android:updatePeriodMillis="1800000"
+  android:initialLayout="@layout/ej13_appwidget_init"
+  android:configure="es.midominio.android.miaplicacion.ej10.ConfiguracionAppWidgetActividad" />

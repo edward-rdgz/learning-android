@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Mon application Android 3</string>
+
+  <!-- Incluir aquí las traducciones al francés.
+  Las traducciones que falten se buscarán en el archivo res/values/strings.xml por defecto.
+  En este proyecto, el idioma por defecto es el español. -->
+
+</resources>

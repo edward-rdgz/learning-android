@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <ProgressBar
+    android:id="@+id/ej07_progressbar"
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:layout_centerInParent="true"
+    android:max="100"
+    android:progress="0"
+    style="?android:attr/progressBarStyleHorizontal" />
+
+  <TextView
+    android:id="@+id/ej07_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/ej07_progressbar"
+    android:text="0%" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_above="@id/ej07_progressbar"
+    android:text="@string/ej07_asynctask" />
+
+</RelativeLayout>

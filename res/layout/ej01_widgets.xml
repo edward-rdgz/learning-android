@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="CheckBox" />
+
+  <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checkedButton="@+id/ej01_radiobutton_1">
+
+    <RadioButton
+      android:id="@id/ej01_radiobutton_1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:checked="false"
+      android:text="RadioButton 1" />
+
+    <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RadioButton 2" />
+
+    <RadioButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="RadioButton 3" />
+
+  </RadioGroup>
+
+  <ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true" />
+
+  <RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rating="2.5" />
+
+  <ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/icono" />
+
+  <ImageButton
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/icono" />
+
+  <AnalogClock
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+  <DigitalClock
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+</ScrollView>

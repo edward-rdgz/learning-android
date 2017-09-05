@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/menu_principal_opcion1"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion1" />
+  <item
+    android:id="@+id/menu_principal_opcion2"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion2">
+    <menu>
+      <item
+        android:id="@+id/menu_principal_opcion2.1"
+        android:icon="@drawable/icono"
+        android:title="@string/ej03_menu_opcion2.1" />
+      <item
+        android:id="@+id/menu_principal_opcion2.2"
+        android:icon="@drawable/icono"
+        android:title="@string/ej03_menu_opcion2.2" />
+    </menu>
+  </item>
+  <item
+    android:id="@+id/menu_principal_opcion3"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion3" />
+  <item
+    android:id="@+id/menu_principal_opcion4"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion4">
+    <menu>
+      <item
+        android:id="@+id/menu_principal_opcion4.1"
+        android:icon="@drawable/icono"
+        android:title="@string/ej03_menu_opcion4.1" />
+      <item
+        android:id="@+id/menu_principal_opcion4.2"
+        android:icon="@drawable/icono"
+        android:title="@string/ej03_menu_opcion4.2" />
+    </menu>
+  </item>
+  <item
+    android:id="@+id/menu_principal_opcion5"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion5" />
+  <item
+    android:id="@+id/menu_principal_opcion6"
+    android:icon="@drawable/icono"
+    android:title="@string/ej03_menu_opcion6" />
+</menu>

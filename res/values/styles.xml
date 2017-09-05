@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Theme.TranslucidoPantallaCompleta" parent="android:style/Theme.NoTitleBar.Fullscreen">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorForeground">@android:color/white</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    <item name="android:windowIsTranslucent">true</item>
+  </style>
+
+  <style name="Boton.Normal" parent="@android:style/Widget.Button">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:shadowColor">@android:color/white</item>
+    <item name="android:shadowDx">2</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">1</item>
+    <item name="android:padding">20dp</item>
+  </style>
+
+  <style name="Text.Base" parent="android:TextAppearance.Theme">
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="Text.Wrap" parent="Text.Base">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@android:color/darker_gray</item>
+  </style>
+
+  <style name="Text.BoldWrap" parent="Text.Wrap">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="Text.Monoline" parent="Text.Base">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:ellipsize">end</item>
+    <item name="android:scrollHorizontally">true</item>
+    <item name="android:lines">1</item>
+  </style>
+
+  <style name="Text.Titulo" parent="Text.Monoline">
+    <item name="android:textSize">22sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:background">@android:color/black</item>
+  </style>
+
+</resources>

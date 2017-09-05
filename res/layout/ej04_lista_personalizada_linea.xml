@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ej04_lista_personalizada_linea"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+
+  <ImageView
+    android:id="@+id/ej04_lista_personalizada_linea_img"
+    android:layout_width="80dp"
+    android:layout_height="100dp"
+    android:scaleType="centerCrop" />
+
+  <TextView
+    android:id="@+id/ej04_lista_personalizada_linea_titulo"
+    style="@style/Text.Titulo"
+    android:layout_toRightOf="@id/ej04_lista_personalizada_linea_img" />
+
+  <RatingBar
+    android:id="@+id/ej04_lista_personalizada_linea_nota"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ej04_lista_personalizada_linea_titulo"
+    android:layout_alignLeft="@id/ej04_lista_personalizada_linea_titulo" />
+
+  <TextView
+    android:id="@+id/ej04_lista_personalizada_linea_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ej04_lista_personalizada_linea_nota"
+    android:layout_alignLeft="@id/ej04_lista_personalizada_linea_titulo" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <Button
+    android:id="@+id/ej13_boton_verif_licencia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="50dp"
+    android:textSize="20sp"
+    android:onClick="onButtonVerificacion"
+    android:text="@string/ej13_verif_licencia" />
+
+  <TextView
+    android:id="@+id/ej13_estado_licencia"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="@string/ej13_verif_info" />
+
+</RelativeLayout>

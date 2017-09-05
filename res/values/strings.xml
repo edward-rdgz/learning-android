@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- Este archivo contiene las cadenas de caracteres en el idioma por defecto.
+  En este proyecto, el idioma por defecto es el español.
+-->
+
+  <string name="nombre_aplicacion">Mi Aplicación Android</string>
+
+  <string name="boton_pulse">"¡Pulse!"</string>
+  <string name="carga">"Cargando..."</string>
+  <string name="actividad_destino_mensaje">"Esta es la actividad destino. Pulse Volver para ir a la actividad que invoca (=actividad anterior)."</string>
+
+  <!-- Ejemplos 01 -->
+  <string name="ej01_mensaje_apaisado">"Esta es una cadena de caracteres definida en el archivo res/values/strings.xml (etiqueta string cuyo atributo name tiene como valor \"ej01_mensaje_apaisado\").\nEl layout utilizado es el definido para el modo apaisado. Gire la pantalla para mostrar el layout correspondiente al modo vertical."</string>
+  <string name="ej01_mensaje_vertical">"Esta es una cadena de caracteres definida en el archivo res/values/strings.xml (etiqueta string cuyo atributo name tiene como valor \"ej01_mensaje_vertical\").\nEl layout utilizado es el definido para el modo vertical. Gire la pantalla para mostrar el layout correspondiente al modo apaisado."</string>
+  <string name="ej01_mensaje_textview_drawable">"Ceci est un mensaje d'exemple\ncomprenant 4 images."</string>
+  <string name="ej01_mensaje_no_mostrado">"Éste es un mensaje que no se muestra jamás porque se remplaza en el código java por el siguiente mensaje antes de mostrarse."</string>
+  <string name="ej01_nuevo_mensaje">"Éste es un mensaje de ejemplo\nque contiene cuatro líneas\naunque sólo son visibles las tres primeras.\nComo prueba, verá que no puede leer esta línea."</string>
+  <string name="ej01_edit">"Escriba si texto aquí"</string>
+  <string name="ej01_boton_pulsar">"¡De lleno!"</string>
+
+  <!-- Ejemplos 02 -->
+  <string name="ej02_intencion_explicita">"Pulse el siguiente botón para ejecutar la actividad de destino utilizando un Intent explícita."</string>
+  <string name="ej02_intencion_implicita">"Pulse uno de los siguientes botones para abrir una actividad de destino que responda a la acción correspondiente."</string>
+  <string name="ej02_boton_view">"ACTION_VIEW"</string>
+  <string name="ej02_boton_action1">"ACTION1"</string>
+  <string name="ej02_vertical">"Esta actividad se muestra únicamente en modo vertical y no responde a los movimientos de rotación de la pantalla.\nSe muestra, además, en pantalla completa. Toda esta información se indica en el archivo AndroidManifest.xml."</string>
+  <string name="ej02_vertical_inversa">"Esta actividad se muestra únicamente en modo vertical inverso y no responde a los movimientos de rotación de la pantalla.\nSe muestra, además, en pantalla completa. Toda esta información se indica en el archivo AndroidManifest.xml."</string>
+  <string name="ej02_ciclodevida">"Esta actividad muestra los distintos estados de su ciclo de vida. Pulse las teclas del dispositivo para provocar cambios de estado de la actividad."</string>
+  <string name="ej02_resultado">"Pulse el botón para ejecutar la actividad de destino que devolverá un código resultado cuando salga."</string>
+  <string name="ej02_resultado_ok">"Resultado: %1$s / %2$s=%3$s / %4$s=%5$s"</string>
+  <string name="ej02_resultado_ko">"Resultado: %1$s"</string>
+  <string name="ej02_resultado_dest">"Pulse el botón para devolver el código RESULT_OK con datos o pulse la tecla Volver para devolver el código RESULT_CANCEL."</string>
+  <string name="ej02_restauracion">"Cambie la orientación de la pantalla varias veces para cambiar el color de la vista. Repita la operación habiendo marcado la siguiente opción."</string>
+  <string name="ej02_restauracion_salvaguardar">"Salvaguardar y restaurar el color actual."</string>
+  <string name="ej02_pila">"Pulse los botones 'Apilar A' o 'Apilar B' A o B y apilarla en la pila de actividades.\nPulse los botones 'Desapilar hasta A' o 'Desapilar hasta B' para desapilar todas las actividades hasta la actividad A o B más reciente en la pila.\nPulse el botón 'Desapilar todo' para volver a la actividad de inicio desapilando todas las actividades apiladas previamente.\nPulse la tecla Volver para volver a la actividad anterior (y desapilar la actividad en curso)."</string>
+  <string name="ej02_pila_init">"Pila: "</string>
+  <string name="ej02_boton_apilar_a">"Apilar A"</string>
+  <string name="ej02_boton_apilar_b">"Apilar B"</string>
+  <string name="ej02_boton_desapilar_hasta_a">"Desapilar hasta A"</string>
+  <string name="ej02_boton_desapilar_hasta_b">"Desapilar hasta B"</string>
+  <string name="ej02_boton_desapilar_todo">"Desapilar todo"</string>
+
+  <!-- Ejemplos 03 -->
+  <string name="ej03_styles_texto_titulo">"texto.Titulo"</string>
+  <string name="ej03_styles_texto_base">"texto.Base"</string>
+  <string name="ej03_styles_texto_wrap">"texto.Wrap"</string>
+  <string name="ej03_styles_texto_boldwrap">"texto.BoldWrap"</string>
+  <string name="ej03_styles_boton_normal">"boton.Normal"</string>
+  <string name="ej03_menu">"Pulse en la tecla Menú para mostrar las distintas opciones del menú y seleccionar una."</string>
+  <string name="ej03_menu_contextual">"Una pulsación prolongada sobre la pantalla abre el menú contextual vinculado con el layout principal."</string>
+  <string name="ej03_menu_opcion1">"Opcion1"</string>
+  <string name="ej03_menu_opcion2">"Opcion2"</string>
+  <string name="ej03_menu_opcion2.1">"Opcion2.1"</string>
+  <string name="ej03_menu_opcion2.2">"Opcion2.2"</string>
+  <string name="ej03_menu_opcion3">"Opcion3"</string>
+  <string name="ej03_menu_opcion4">"Opcion4"</string>
+  <string name="ej03_menu_opcion4.1">"Opcion4.1"</string>
+  <string name="ej03_menu_opcion4.2">"Opcion4.2"</string>
+  <string name="ej03_menu_opcion5">"Opcion5"</string>
+  <string name="ej03_menu_opcion6">"Opcion6"</string>
+  <string name="ej03_menu_seleccion">"¡Menú %s seleccionado!"</string>
+  <string name="ej03_menu_seleccion_opcion1">"Se ha seleccionado Opcion1"</string>
+  <string name="ej03_dialogo_seleccion1">"Selección 1"</string>
+  <string name="ej03_dialogo_seleccion2">"Selección 2"</string>
+  <string name="ej03_dialogo_seleccion3">"Selección 3"</string>
+  <string name="ej03_dialogo_alerta">"Cuadro de diálogo de alerta"</string>
+  <string name="ej03_dialogo_alerta_msg">"Mensaje del cuadro de diálogo"</string>
+  <string name="ej03_dialogo_alerta_seleccion">"Cuadro de diálogo de alerta con selección"</string>
+  <string name="ej03_dialogo_progresion">"Cuadro de diálogo de progresión"</string>
+  <string name="ej03_dialogo_progresion_ind">"Cuadro de diálogo de progresión ind"</string>
+  <string name="ej03_notificacion_boton">"Agregar una notificación"</string>
+  <string name="ej03_notificacion_titulo">"Título de la notificaciónn"</string>
+  <string name="ej03_notificacion_ticker">"Mensaje de la notificaciónn"</string>
+  <string name="ej03_notificacion_texto">"Un clic aquí abre la actividad."</string>
+  <string name="ej03_notificacion_agregado">"Notificación agregada"</string>
+  <string name="ej03_notification_error">"Error tras la creación de la notificación"</string>
+  <string name="ej03_toast_duracion_corta">"Toast de duración corta"</string>
+  <string name="ej03_toast_duracion_larga">"Toast de duración larga"</string>
+
+  <!-- Ejemplos 04 -->
+  <string name="ej04_service_infos">"Pulse el botón 'startService' una o varias veces para iniciar el servicio (o enviarle un nuevo intent si ya está iniciado).\nPulse el botón 'stopService' para detener el servicio.\nPulse el botón 'stopSelf' para pedirle al servicio que se detenga él mismo  (no tiene sentido más que para nuestro ejemplo).\nUna vez lanzado el servicio, puede salir de la aplicación. El servicio seguirá activo. A continuación, vuelva aquí para detenerlo..."</string>
+  <string name="ej04_service_boton_start">"startService"</string>
+  <string name="ej04_service_boton_stop">"stopService"</string>
+  <string name="ej04_service_boton_stopself">"stopSelf"</string>
+  <string name="ej04_service_boton_bind">"Bind"</string>
+  <string name="ej04_service_boton_unbind">"Unbind"</string>
+  <string name="ej04_service_boton_action">"Action"</string>
+  <string name="ej04_receptor_evts">"Pulse el botón para enviar un evento que se recibirá y procesará en el receptor de eventos."</string>
+  <string name="ej04_receptor_evts_envio_evt">"Envío de un evento"</string>
+  <string name="ej04_receptor_evts_recepcion_evt">"onReceive: Evento recibido."</string>
+  <string name="ej04_notificacion_titulo">"Notificación del funcionamiento del servicio"</string>
+  <string name="ej04_notificacion_ticker">"Mensaje de la notification"</string>
+  <string name="ej04_notificacion_texto">"No puede eliminarlo el usuario."</string>
+
+  <!-- Ejemplos 05 -->
+  <string name="ej05_prefs">"Edite los siguientes campos, guárdelos o no, salga de la aplicación y, a continuación, vuelva a iniciarla para restaurar los valores de la última salvaguarda."</string>
+  <string name="ej05_prefs_seleccion">"Selección"</string>
+  <string name="ej05_prefs_opcion_a">"Opción A"</string>
+  <string name="ej05_prefs_opcion_b">"Opción B"</string>
+  <string name="ej05_prefs_boton_salvaguardar">"Salvaguardar"</string>
+  <string name="ej05_archivos">"Esta actividad salvaguarda el logo de la aplicación en un archivo en el área de almacenamiento interno.\nA continuación, lee el archivo para recuperar los datos de la imagen que debe mostrarse a continuación."</string>
+  <string name="ej05_archivos_rutas">"getFilesDir='%1$s'\ngetCacheDir='%2$s'\nEstado del soporte externo:'%3$s'\ngetextornalCacheDir='%4$s'\ngetextornalFilesDir(null)='%5$s'\ngetextornalFilesDir(Environment.DIRECTORY_PICTURES)='%6$s'\ngetextornalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)='%7$s'"</string>
+  <string name="ej05_bdd">"Esta actividad crea (la primera vez) una base de datos SQLite, agrega datos, los recupera y, a continuación, los muestra."</string>
+  <string name="ej05_proveedor_de_contenidos">"Esta actividad muestra 10 imágenes provistas por el proveedor de contenidos almacenadas en el soporte externo."</string>
+  <string name="ej05_proveedor_de_contenidos_sin_imagenes">"¡No se ha encontrado ninguna imagen!"</string>
+
+  <!-- Ejemplos 06 -->
+  <string name="ej06_escriba_una_cifra_en_letras">"Escriba una cifra en letras"</string>
+  <string name="hola_android">¡Hola Android!</string>
+  <string name="android_guia_de_desarrollo">Android, Guía de desarrollo</string>
+  <string name="ej06_abierto">Abierto</string>
+  <string name="ej06_cerrado">Cerrado</string>
+  <string name="ej06_quienes_somos">¿Quiénes somos?</string>
+  <string name="ej06_inicio">Inicio</string>
+  <string name="ej06_menu">Menú</string>
+  <string name="ej06_contenido">Contenido</string>
+  <string name="ej06_navegacion">Navegación</string>
+  
+  <!-- Ejemplos 07 -->
+  <string name="ej07_proceso">"Escriba el comando 'adb shell ps' en una consola (o utilice la perspectiva DDMS en Eclipse) para ver la lista de procesos.\nAparece el proceso en curso 'es.midominio.android.miaplicacion'. A continuación, haga clic en el siguiente botón."</string>
+  <string name="ej07_otro_proceso">"Escriba de nuevo el comando 'adb shell ps' en una consola (o utilice la perspectiva DDMS en Eclipse) para ver la lista de procesos.\nSe ha creado un nuevo proceso 'es.midominio.android.miaplicacion:otroProceso' que contiene la actividad en curso."</string>
+  <string name="ej07_anr">"(ANR por Application Not Responding).\nHaciendo clic en el botón se bloquea la apicación. Pulse, a continuación, en Volver. Algunos segundos más tarde, aparece un mensaje que permite forzar el cierre de la aplicación o esperar que responda..."</string>
+  <string name="ej07_asynctask">"Esta actividad busca los números primos en una tarea secundaria para no bloquear el thread principal."</string>
+  <string name="ej07_calculo_iniciado">"¡Cálculo de número primos iniciado!"</string>
+  <string name="ej07_calculo_progreso">"%d%% terminado"</string>
+  <string name="ej07_calculo_resultados">"¡%d números primos encontrados en total!"</string>
+  <string name="ej07_calculo_anulado">"¡Cálculo anulado!\n%d números primos encontrados hasta ahora."</string>
+  <string name="ej07_thread">"Esta actividad busca los números primos en una tarea secundaria para no bloquear el thread principal."</string>
+  <string name="ej07_thread_5segundos">"5 segundos adicionales..."</string>
+  <string name="ej07_thread_stop">"Detiene la tarea"</string>
+  <string name="ej07_http">"Esta actividad realiza una búsqueda http en un thread secundario para recuperar diversa información... Espere por favor...\nUna vez obtenida la respuesta, en formato json, se obtendrá el nombre de un restaurante y se mostrará en formato Toast."</string>
+  <string name="ej07_http_resultado">"Restaurante encontrado: %s"</string>
+  <string name="ej07_http_conexion_ko">"¡Sin conexión a Internet!"</string>
+  <string name="ej07_http_error">"Error conectando al sitio"</string>
+  <string name="ej07_http_anular">"¡Consulta anulada!"</string>
+
+  <!-- Ejemplos 08 -->
+  <string name="ej08_compartir">Compartir</string>
+  
+  <!-- Ejemplos 09 -->
+  <string name="ej09_logs">"Escriba el comando 'adb logcat' en una consola o utilice la vista LogCat en Eclipse para ver la lista de eventos anotados en el registro de eventos.\nEn Eclipse, cada evento aparece con el color correspondiente a su categoría."</string>
+  <string name="ej09_tests">"Ejecute el proyecto 'MiAplicacionPrueba' para ejecutar las pruebas unitarias y funcionales relativas a esta actividad."</string>
+  <string name="ej09_test_mono">"Escriba el comando 'adb shell monkey -p es.midominio.android.miaplicacion -v 100' en una consola para ejecutar la prueba del mono."</string>
+
+  <!-- Ejemplos 10 -->
+  <string name="ej10_publicar">"Los principales elementos relativos a la publicación de la aplicación se encuentran en el manifiesto.\nEl archivo final de la aplicación compilada en modo release es 'workspace/bin/MiAplicacion_1_0_0.apk'.\nContiene una clave para los mapas geográficos distinta a la utilizada en el modo de debug, pues sin ella la visualización aparece vacía..."</string>
+
+  <!-- Ejemplos 11 -->
+  <string name="ej11_geoloc_info">"Haga clic en el siguiente botón para obtener los datos de localización. Habilite/Deshabilite las opciones de localización a través de redes en la configuración de su dispositivo."</string>
+  <string name="ej11_geoloc_cache">"Caché"</string>
+  <string name="ej11_geoloc_actualiz_unica_on">"En curso..."</string>
+  <string name="ej11_geoloc_actualiz_regular_on">"¡Detener las actualizaciones!"</string>
+  <string name="ej11_geoloc_actualiz_regular_off">"Actualizaciones regulares"</string>
+  <string name="ej11_geoloc_actualiz_regular">"Actualizaciones regulares"</string>
+  <string name="ej11_geoloc_cache_red">"Caché de red"</string>
+  <string name="ej11_geoloc_cache_gps">"Caché GPS"</string>
+  <string name="ej11_geoloc_cache_pasiva">"Caché Pasiva"</string>
+  <string name="ej11_geoloc_dispositivo_on">"Disponitivo habilitado: %s"</string>
+  <string name="ej11_geoloc_dispositivo_off">"Dispositivo deshabilitado: %s"</string>
+  <string name="ej11_geoloc_status_changed">"Estado modificado: dispositivo=%1$s / estado=%2$s"</string>
+  <string name="ej11_geoloc_loc">"%1$s : %2$s"</string>
+  <string name="ej11_geoloc_status_on">"En servicio"</string>
+  <string name="ej11_geoloc_status_off">"Fuera de servicio"</string>
+  <string name="ej11_geoloc_status_ko">"Temporalmente no disponible"</string>
+  <string name="ej11_geoloc_status_satellites">"(satellites=%d)"</string>
+  <string name="ej11_geoloc_sin_hardware">"Este dispositivo no dispone de elementos de hardware que permitan su localización."</string>
+  <string name="ej11_tarjeta_localizacion">"Localización de la posición en curso..."</string>
+
+  <!-- Exemple 12 -->
+  <string name="ej12_leer_un_tag">Leer un tag NFC</string>
+  <string name="ej12_escribir_un_tag">Escribir un tag NFC</string>
+  <string name="ej12_un_tag_nfc_se_ha_escrito">"Un tag NFC se ha escrito"</string>
+  <string name="ej12_este_es_el_contenido_del_tag_nfc">Éste es el contenido del tag NFC</string>
+  <string name="ej12_error_durante_escritura_del_tag">"Se ha producido un error durante la escritura del tag"</string>
+
+  <!-- Ejemplos 13 -->
+  <string name="ej13_appwidget_nombre">"Mi App Widget"</string>
+  <string name="ej13_appwidget">"Para instalar el componente App Widget, vuelva al escritorio y pulse de manera prolongada sobre la imagen de fondo de pantalla, a continuación seleccione 'Widgets' y por último 'Mi App Widget'."</string>
+  <string name="ej13_appwidget_configuracion">"Esta actividad permite al usuario configurar el App Widget tras su instalación."</string>
+  <string name="ej13_appwidget_configuracion_boton_validar">"Validar"</string>
+  <string name="ej13_appwidget_actualiz">"Actualización de %d App Widget(s)"</string>
+  <string name="ej13_appwidget_formato_hora">"%H:%M:%S"</string>
+  <string name="ej13_verif_info">"Escriba la clave pública de su cuenta de AndroidMarket en la constante CLAVE_PUBLICA_BASE64 del archivo 'LicenciaActividad.java'. Modifique, a su vez, la constante SALT.\nA continuación, haga clic en el siguientebotón para ejecutar la verificación de la licencia de la aplicación."</string>
+  <string name="ej13_verif_licencia">"¡Verifique la licencia de la aplicación!"</string>
+  <string name="ej13_estado_licencia_en_curso">"Comprobación de licencia en curso..."</string>
+  <string name="ej13_estado_licencia_ko">"Licencia inválida"</string>
+  <string name="ej13_estado_licencia_ok">"Licencia válida"</string>
+  <string name="ej13_error_aplicacion">"Error de la aplicación: %1$s"</string>
+  <string name="ej13_dialogo_titulo">"Licencia inválida"</string>
+  <string name="ej13_dialogo_mensaje">"La licencia de la aplicación no es válida. Compre la aplicación en Android Market."</string>
+  <string name="ej13_dialogo_comprar">"Comprar"</string>
+  <string name="ej13_dialogo_salir">"Salir"</string>
+  
+</resources>

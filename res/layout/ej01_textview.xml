@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal">
+
+  <TextView
+    android:id="@+id/ej01_textview_msg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:textColor="#000"
+    android:textSize="14sp"
+    android:maxLines="3"
+    android:gravity="center"
+    android:text="@string/ej01_mensaje_no_mostrado" />
+
+  <TextView
+    android:id="@+id/ej01_textview_msg_drawable"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#00F"
+    android:gravity="center"
+    android:drawableTop="@drawable/icono"
+    android:drawableBottom="@drawable/icono"
+    android:drawableLeft="@drawable/icono"
+    android:drawableRight="@drawable/icono"
+    android:text="@string/ej01_mensaje_textview_drawable" />
+
+</LinearLayout>

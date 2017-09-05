@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="es.midominio.android.miaplicacion"
+  android:versionCode="1"
+  android:versionName="1.0.0"
+  android:sharedUserId="es.midominio.android.usuario1" >
+  <!-- Capítulo 'Concurrencia, seguridad y red': el atributo android:sharedUserId 
+  de la siguiente línea en la etiqueta del manifiesto permite especificar de manera  
+  explícita el nombre de usuario del proceso de modo que sea el mismo que el 
+  de la aplicación MiOtraAplicacion -->
+  
+  <!-- Capítulo 'Primeros pasos' -->
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="16" />
+
+  <!-- Capítulo 'Descubrir la interfaz de usuario' -->
+  <supports-screens
+    android:smallScreens="true"
+    android:normalScreens="true"
+    android:largeScreens="true"
+    android:anyDensity="true" />
+  
+  <!-- Capítulo 'Completar la interfaz de usuario' -->
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  
+  <!-- Capítulo 'La persistencia de los datos' -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_CONTACTS"/>
+  <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+  
+  <!-- Capítulo 'Concurrencia, seguridad y red' -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  
+  <!-- Capítulo 'Publicar una aplicación' -->
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-configuration android:reqFiveWayNav="false" android:reqNavigation="undefined"
+    android:reqHardKeyboard="false" android:reqTouchScreen="undefined"
+    android:reqKeyboardType="undefined" />
+  
+  <!-- Capítulo 'Mapas y localización geográfica' -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+  <!--  Capítulo 'La tecnología NFC' -->
+  <uses-permission android:name="android.permission.NFC"/>
+  
+  <!-- Capítulo 'Funcionalidades avanzadas' -->
+  <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+  
+  <!-- Capítulo 'Primeros pasos' -->
+  <application android:icon="@drawable/icono" android:label="@string/nombre_aplicacion">
+  <!-- Capítulo 'Concurrencia, seguridad y red': es posible modificar el nombre del proceso
+  utilizando el atributo android:process como se indica a continuación. Es preciso indicar
+  este mismo nombre en la aplicación MiOtraAplicacion si fuera necesario para que ambas aplicaciones
+  puedan compartir el mismo proceso. -->
+  <!-- android:process="es.midominio.android.proceso.compartido" -->
+  
+    <!-- Splash screen -->
+    <!-- El atributo android:noHistory permet de ne pas empiler l'activité dans la pile des activités. -->
+    <activity android:name=".SplashActivity" android:noHistory="true" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+      <intent-filter>
+          <action android:name="android.intent.action.MAIN" />
+          <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    
+    <!-- Actividad principal -->
+    <!-- El atributo android:launchMode="singleTask" permite, entre otros, tener una única instancia de la actividad en la pila de actividades -->
+    <activity android:name=".MiActividadPrincipal" android:launchMode="singleTask"/>
+
+    <!-- Común -->
+    <activity android:name=".MiActividadDeDestino" android:label="MiActividadDeDestino"/>
+
+    <!-- Capítulo 'Descubrir la interfaz de usuario' -->
+    <activity android:name=".ej01.MedidasPantallaActividad" android:label="ej01 - MedidasPantallaActividad"/>
+    <activity android:name=".ej01.ModoDeclarativoActividad" android:label="ej01 - ModoDeclarativoActividad"/>
+    <activity android:name=".ej01.ModoProgramaticoActividad" android:label="ej01 - ModoProgramaticoActividad"
+      android:configChanges="orientation"/>
+    <activity android:name=".ej01.TextViewActividad" android:label="ej01 - TextViewActividad"/>
+    <activity android:name=".ej01.EditTextActividad" android:label="ej01 - EditTextActividad"/>
+    <activity android:name=".ej01.Boton1Actividad" android:label="ej01 - Boton1Actividad"/>
+    <activity android:name=".ej01.Boton2Actividad" android:label="ej01 - Boton2Actividad"/>
+    <activity android:name=".ej01.OtrossWidgetsActividad" android:label="ej01 - OtrosWidgetsActividad"/>
+    
+    <!-- Capítulo 'Fundamentos' -->
+    <activity android:name=".ej02.IntencionExplicitaActividad" android:label="ej02 - IntencionExplicitaActividad"/>
+    <activity android:name=".ej02.IntencionImplicitaActividad" android:label="ej02 - IntencionImplicitaActividad"/>
+    <activity android:name=".ej02.IntencionImplicitaDestActividad" android:label="ej02 - IntencionImplicitaActividad - IntencionImplicitaDestActividad">
+      <intent-filter>
+        <category android:name="android.intent.category.DEFAULT" />
+        <action android:name="android.intent.action.VIEW" />
+        <data android:scheme="http" />
+      </intent-filter>
+      <intent-filter>
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="es.midominio.android.miaplicacion.CATEGORIA1" />
+        <action android:name="es.midominio.android.miaplicacion.ACCION1" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".ej02.VerticalActividad" android:label="ej02 - VerticalActividad"
+      												android:screenOrientation="portrait" 
+      												android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity android:name=".ej02.ApaisadoActividad" android:label="ej02 - ApaisadoActividad"
+      												android:screenOrientation="landscape" 
+      												android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+    <activity android:name=".ej02.CicloDeVidaActividad" android:label="ej02 - CicloDeVidaActividad"/>
+    <activity android:name=".ej02.ResultadoActividad" android:label="ej02 - ResultadoActividad"/>
+    <activity android:name=".ej02.ResultadoDestActividad" android:label="ej02 - ResultadoActividad - ResultadoDestActividad"/>
+    <activity android:name=".ej02.RestauracionActividad" android:label="ej02 - RestauracionActividad"/>
+    <activity android:name=".ej02.PilaAActividad" android:label="ej02 - PilaAActividad"/>
+    <activity android:name=".ej02.PilaBActividad" android:label="ej02 - PilaBActividad"/>
+    
+    <!-- Capítulo 'Completar la interfaz de usuario' -->
+    <activity android:name=".ej03.EstilosTemasActividad" android:label="ej03 - EstilosTemasActividad"
+      													android:theme="@style/Theme.TranslucidoPantallaCompleta"/>
+    <activity android:name=".ej03.MenuActividad" android:label="ej03 - MenuActividad"/>
+    <activity android:name=".ej03.MenuContextualActividad" android:label="ej03 - MenuContextualActividad"/>
+    <activity android:name=".ej03.ToastActividad" android:label="ej03 - ToastActividad"/>
+    <activity android:name=".ej03.DialogoActividad" android:label="ej03 - DialogoActividad"/>
+    <activity android:name=".ej03.NotificacionActividad" android:label="ej03 - NotificacionActividad"/>
+    
+    <!-- Capítulo 'Principales componentes de aplicación' -->
+    <activity android:name=".ej04.ServicioActividad" android:label="ej04 - ServicioActividad"/>
+    <service android:name=".ej04.MiServicio"/>
+    <activity android:name=".ej04.ReceptorEventosActividad" android:label="ej04 - ReceptorEventosActividad"/>
+    <receiver android:name=".ej04.ReceptorEventos">
+      <intent-filter>
+        <action android:name="es.midominio.android.miaplicacion.EVT_1" />
+      </intent-filter>
+    </receiver>
+	<activity android:name=".ej04.ListaSimpleActividad" android:label="ej04 - ListaSimpleActividad"/>
+    <activity android:name=".ej04.ListaPersonalizadaActividad" android:label="ej04 - ListaPersonalizadaActividad"/>
+    
+    <!-- Capítulo 'La persistencia de los datos' -->
+    <activity android:name=".ej05.PreferenciasActividad" android:label="ej05 - PreferenciasActividad"/>
+    <activity android:name=".ej05.ArchivosActividad" android:label="ej05 - ArchivosActividad"/>
+    <activity android:name=".ej05.BDDActividad" android:label="ej05 - BDDActividad"/>
+    <activity android:name=".ej05.ProveedorDeContenidosActividad" android:label="ej05 - ProveedorDeContenidosActividad"/>
+    <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAInZXS0KYBLVZmZjf8HfXGqeLpIngbz8XxuhFxZQ" />
+    <activity android:name=".ej05.AgenteDeCopiaDeSeguridadActividad" android:label="ej05 - PreferenciasNubeActividad"/>
+
+    <!-- Capítulo 'Construir interfaces complejas' -->
+    <activity android:name=".ej06.ComponentePersonalizadoActividad"></activity>
+    <activity android:name=".ej06.NavigationDrawerActividad" android:theme="@style/Theme.TranslucidoPantallaCompleta"></activity>
+    <activity android:name=".ej06.ImagenesRedimensionablesActividad"></activity>
+    
+    <!-- Capítulo 'Concurrencia, seguridad y red' -->
+    <activity android:name=".ej07.ProcesoActividad" android:label="ej06 - ProcesoActividad"/>
+    <activity android:name=".ej07.OtroProcesoActividad" android:label="ej06 - OtroProcesoActividad" android:process=":OtroProceso"/>
+    <activity android:name=".ej07.ANRActividad" android:label="ej06 - ANRActividad"/>
+    <activity android:name=".ej07.AsyncTaskActividad" android:label="ej06 - AsyncTaskActividad"/>
+    <activity android:name=".ej07.ThreadActividad" android:label="ej06 - ThreadActividad"/>
+    <activity android:name=".ej07.HTTPActividad" android:label="ej06 - HTTPActividad"/>
+
+    <!-- Capítulo 'Redes sociales'  -->
+    <activity android:name=".ej08.RedesSocialesActividad"></activity>
+    
+    <!-- Capítulo 'Trazas, depuración y pruebas' -->
+    <activity android:name=".ej09.RegistroDeEventosActividad" android:label="ej07 - RegistroDeEventosActividad"/>
+    <activity android:name=".ej09.PruebasUnitariasActividad" android:label="ej07 - PruebasUnitariasActividad"/>
+    <activity android:name=".ej09.PruebasFuncionalessActividad" android:label="ej07 - PruebasFuncionalessActividad"/>
+    <activity android:name=".ej09.PruebaDelMonoActividad" android:label="ej07 - PruebaDelMonoActividad"/>
+    
+    <!-- Capítulo 'Publicar una aplicación' -->
+    <activity android:name=".ej10.PublicacionActividad" android:label="ej08 - PublicacionActividad"/>
+    
+    <!-- Capítulo 'Mapas y localización geográfica' -->
+    <activity android:name=".ej11.GeolocActividad" android:label="ej09 - GeolocActividad"/>
+    <uses-library android:name="com.google.android.maps" />
+    <activity android:name=".ej11.MapaActividad" android:label="ej09 - MapaActividad"/>
+    
+    <!--  Capítulo 'La tecnología NFC' -->
+    <activity android:name=".ej12.DescubrirNFCActividad"></activity>
+    <activity android:name=".ej12.LeerNFCActividad"></activity>
+    <activity android:name=".ej12.EscribirNFCActivity"></activity>
+    
+    <!-- Capítulo 'Funcionalidades avanzadas' -->
+    <activity android:name="es.midominio.android.miaplicacion.ej13.AppWidgetActividad" android:label="ej10 - AppWidgetActividad"/>
+    <receiver android:name="es.midominio.android.miaplicacion.ej13.MiAppWidget" android:label="@string/ej13_appwidget_nombre" >
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+      </intent-filter>
+      <meta-data android:name="android.appwidget.provider" 
+                 android:resource="@xml/ej10_appwidget_config" />
+    </receiver>
+    <activity android:name=".ej13.ConfiguracionAppWidgetActividad">
+      <intent-filter>
+        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+      </intent-filter>
+    </activity>
+    <activity android:name=".ej13.LicenciaActividad" android:label="ej10 - LicenciaActividad"/>
+    
+  </application>
+</manifest>

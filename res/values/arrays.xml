@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array
+    name="capitulos">
+    <item>"ej01 - Descubrir la interfaz de usuario"</item>
+    <item>"ej02 - Los fundamentos"</item>
+    <item>"ej03 - Completar la interfaz de usuario"</item>
+    <item>"ej04 - Principales componentes de aplicación"</item>
+    <item>"ej05 - La persistencia de los datos"</item>
+    <item>"ej06 - Construir interfaces complejas"</item>
+    <item>"ej07 - Concurrencia, seguridad y red"</item>
+    <item>"ej08 - Redes sociales"</item>
+    <item>"ej09 - Trazas, depuración y pruebas"</item>
+    <item>"ej10 - Publicar una aplicación"</item>
+    <item>"ej11 - Mapas y localización geográfica"</item>
+    <item>"ej12 - La tecnología NFC"</item>
+    <item>"ej13 - Funcionalidades avanzadas"</item>
+  </string-array>
+
+  <string-array
+    name="etiquetas">
+    <item>"Texto 1"</item>
+    <item>"Texto 2"</item>
+    <item>"Texto 3"</item>
+    <item>"Texto 4"</item>
+    <item>"Texto 5"</item>
+    <item>"Texto 6"</item>
+    <item>"Texto 7"</item>
+    <item>"Texto 8"</item>
+    <item>"Texto 9"</item>
+    <item>"Texto 10"</item>
+    <item>"Texto 11"</item>
+    <item>"Texto 12"</item>
+    <item>"Texto 13"</item>
+    <item>"Texto 14"</item>
+    <item>"Texto 15"</item>
+    <item>"Texto 16"</item>
+    <item>"Texto 17"</item>
+    <item>"Texto 18"</item>
+    <item>"Texto 19"</item>
+    <item>"Texto 20"</item>
+  </string-array>
+
+</resources>
